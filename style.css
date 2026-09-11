@@ -13,3 +13,26 @@
 .stick.pressed {
     filter: brightness(1.5) drop-shadow(0 0 6px white);
 }
+/* ===== LENZ ===== */
+
+.controller.xbox::after {
+    content: "LENZ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 55px;
+    text-align: center;
+
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 3px;
+
+    text-shadow:
+        0 0 4px #fff,
+        0 0 10px #fff;
+    z-index: 9999;
+    pointer-events: none;
+}
