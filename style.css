@@ -1,0 +1,15 @@
+/* LENZ - Xbox controller overlay */
+
+.controller.xbox {
+    filter: brightness(0.72) contrast(1.18);
+}
+
+/* Effet lumineux quand une touche est pressée */
+.pressed {
+    filter: brightness(1.6) drop-shadow(0 0 7px white);
+}
+
+/* Sticks plus visibles */
+.stick.pressed {
+    filter: brightness(1.5) drop-shadow(0 0 6px white);
+}
